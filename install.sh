@@ -1,7 +1,5 @@
 #!/bin/bash
 
-sudo su
-
 install_docker() {
     apt-get update 
     apt-get install ca-certificates curl gnupg -y
